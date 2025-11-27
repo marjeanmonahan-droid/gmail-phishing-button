@@ -7,7 +7,7 @@ Step-by-Step Guide
 - "run_at": "document_start" is important for ensuring the content script loads correctly with Gmail's complex interface.
 - The web_accessible_resources section is crucial for Manifest V3 compatibility when using the InboxSDK's required files (as per their official MV3 example). 
 
-2. Install InboxSDK via npm
+2. Install InboxSDK https://inboxsdk.github.io/inboxsdk-docs/ via npm
 - Navigate to your project directory in the terminal and install the core SDK package within you shell environment, e.g. bash
 - npm install @inboxsdk/core
 
