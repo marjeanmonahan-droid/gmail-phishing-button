@@ -1,3 +1,5 @@
+Abandoning this as I can't get the V2 and V3 modules working. Maybe another time.
+
 # gmail-phishing-button
 A Chrome extension that adds a "Report Phishing" button to web version of Gmail
 
