@@ -8,6 +8,8 @@ Step-by-Step Guide
 - The web_accessible_resources section is crucial for Manifest V3 compatibility when using the InboxSDK's required files (as per their official MV3 example). 
 
 2. Install InboxSDK https://inboxsdk.github.io/inboxsdk-docs/ via npm
+- Register with InboxSDK here https://register.inboxsdk.com/
+- Download the InboxSDK JS file https://build.inboxsdk.com/inboxsdk.js
 - Navigate to your project directory in the terminal and install the core SDK package within you shell environment, e.g. bash
 - npm install @inboxsdk/core
 
