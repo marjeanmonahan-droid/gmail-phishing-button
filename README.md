@@ -14,7 +14,7 @@ Step-by-Step Guide
 3. Content Script will inject the InboxSDK and run your application code. 
 
 4. Bundle Your Code
-Because Chrome extensions require all logic to be included in the package (especially with Manifest V3), you need a bundler like Webpack or Parcel to combine your modules into a single content.js file and include the necessary InboxSDK background files. The InboxSDK MV3 example on GitHub provides a simple Webpack setup you can use as a starting point. 
+- Because Chrome extensions require all logic to be included in the package (especially with Manifest V3), you need a bundler like Webpack or Parcel to combine your modules into a single content.js file and include the necessary InboxSDK background files. The InboxSDK MV3 example on GitHub provides a simple Webpack setup you can use as a starting point. 
 
 5. Load and Test Your Extension
 - Open Chrome and navigate to chrome://extensions.
