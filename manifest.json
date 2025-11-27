@@ -1,0 +1,24 @@
+json
+{
+  "manifest_version": 3,
+  "name": "My Gmail Manipulator",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start" 
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inboxsdk.js", "background.js", "pageWorld.js"],
+      "matches": ["https://mail.google.com/*"]
+    }
+  ]
+}
